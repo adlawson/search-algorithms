@@ -4,12 +4,13 @@
 
 ### [Depth First Search][dfs] implementation in JavaScript ###
 
-This is part of a series of exercises to help me improve my logical thinking and programming.<br/>
+This is part of a series of exercises to help me improve my understanding of programming languages and styles.<br/>
 Implementation as described by [Prof. Erik Demaine][demaine] in a [recorded lecture][dfs-video] at MIT.<br/>
 The graph constructed in the test is represented in the diagram shown on the right.
 
 ```bash
-make visit  # 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
+$ node dfs_test.js
+# => 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
 ```
 
 <table>
