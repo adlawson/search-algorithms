@@ -3,7 +3,8 @@ module.exports = (function () {
     'use strict';
 
     function visit(graph, fn, visited) {
-        for (node in graph) {
+
+        for (var node in graph) {
             if (-1 === visited.indexOf(node)) {
                 visited.push(node);
                 fn(node);
