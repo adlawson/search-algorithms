@@ -1,0 +1,6 @@
+.vagrant
+*.beam
+*.pyc
+golang/dfs
+golang/bfs
+Vagrantfile
